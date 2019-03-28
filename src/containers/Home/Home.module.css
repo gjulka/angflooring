@@ -1,0 +1,28 @@
+.Home {
+    background: url(../../assets/homepic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeBody {
+    margin-bottom: 100px;
+    width: 750px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    
+}
+
+.HomeBody h1{
+    color: white;
+    font-weight: bold;
+}
+
+.HomeBody h6{
+    color: white;
+}
