@@ -1,5 +1,6 @@
 import React from 'react'
-import homepic from '../../assets/homepic.jpg'
+
+import arrow from '../../assets/down-arrow.svg'
 import classes from './Home.module.css';
 
 const Home = () => (
@@ -14,6 +15,8 @@ const Home = () => (
                     sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </h6>
             </div>
+            <div className={classes.Arrow}><img src={arrow}></img></div>
+            <div className={classes.Arrow2}><img src={arrow}></img></div>
         </div>
         <div className={classes.Details}>
             <h1>more details</h1>

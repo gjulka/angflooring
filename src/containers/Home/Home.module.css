@@ -3,14 +3,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 65vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .HomeBody {
-    margin-bottom: 100px;
+    margin-bottom: 210px;
     width: 750px;
     text-align: center;
     background: rgba(0, 0, 0, 0.4);
@@ -29,4 +29,18 @@
 
 .Details {
     height: 750px;
+}
+
+.Arrow {
+    height: 50px;
+    width: 50px;
+    top: 885px;
+    position: absolute;
+}
+
+.Arrow2 {
+    height: 50px;
+    width: 50px;
+    top: 900px;
+    position: absolute;
 }

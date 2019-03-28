@@ -1,12 +1,11 @@
 import React from 'react';
 import classes from './NavBar.module.css';
 
-
 const Navbar = () => (
-    <div className={classes.NavBar}>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div className={classes.NavBar} >
+        <nav class="navbar center navbar-expand-lg navbar-dark bg-dark">
             <div class="navbar-brand">ANG Flooring</div>
-            <div className="collapse navbar-collapse moveRight">
+            <div className="collapse navbar-collapse">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
                         <a className="nav-link" href="#">Home</a>

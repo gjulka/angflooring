@@ -1,8 +1,13 @@
 .NavBar {
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
-.moveRight {
-    margin-left: 50px;
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
 }
