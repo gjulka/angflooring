@@ -1,0 +1,8 @@
+.NavBar {
+    position: fixed;
+    width: 100%;
+}
+
+.moveRight {
+    margin-left: 50px;
+}
