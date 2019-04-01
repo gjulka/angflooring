@@ -28,7 +28,12 @@
 }
 
 .Details {
-    height: 750px;
+    width: 70%;
+    height: 500px;
+    background: aqua;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
 }
 
 .Arrow {

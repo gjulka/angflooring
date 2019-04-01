@@ -3,6 +3,14 @@ import React from 'react'
 import arrow from '../../assets/down-arrow.svg'
 import classes from './Home.module.css';
 
+import Laminate from '../../components/Laminate/Laminate'
+import LaminatePics from '../../components/Laminate/LaminatePics';
+import Tile from '../../components/Tile/Tile'
+import TilePics from '../../components/Tile/TilePics'
+import Granite from  '../../components/Granite/Granite'
+import GranitePics from '../../components/Granite/GranitePics'
+
+
 const Home = () => (
     <div>
         <div className={classes.Home}>
@@ -15,12 +23,23 @@ const Home = () => (
                     sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </h6>
             </div>
-            <div className={classes.Arrow}><img src={arrow}></img></div>
-            <div className={classes.Arrow2}><img src={arrow}></img></div>
+            <div className={classes.Arrow}><img src={arrow} alt=""></img></div>
+            <div className={classes.Arrow2}><img src={arrow} alt=""></img></div>
         </div>
-        <div className={classes.Details}>
-            <h1>more details</h1>
-        </div>
+        {/* Each section uses same class...could possibly change if you run into errors */}
+        <section className={classes.Details}>
+            <Laminate/>
+            <LaminatePics />
+        </section>
+        <section className={classes.Details}>
+            <Tile />
+            <TilePics />
+        </section>
+        <section className={classes.Details}>
+            <Granite />
+            <GranitePics />
+        </section>
+
     </div>
 )
 
