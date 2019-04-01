@@ -6,7 +6,7 @@ const Tile = () => (
     <div className={classes.Tile}>
         <div>
             <h1>Tile</h1>
-            <h4>We have over 100 different selections in tile. From Porcelin to Ceramic and everything in between. </h4>
+            <h4>We have over 100 different selections in tile. From Porcelain to Ceramic and everything in between. </h4>
         </div>
     </div>
 )

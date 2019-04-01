@@ -9,6 +9,8 @@ import Tile from '../../components/Tile/Tile'
 import TilePics from '../../components/Tile/TilePics'
 import Granite from  '../../components/Granite/Granite'
 import GranitePics from '../../components/Granite/GranitePics'
+import Description from '../../components/Description/Description'
+import DescriptionPics from '../../components/Description/DescriptionPics'
 
 
 const Home = () => (
@@ -28,8 +30,13 @@ const Home = () => (
         </div>
         {/* Each section uses same class...could possibly change if you run into errors */}
         <section className={classes.Details}>
-            <Laminate/>
-            <LaminatePics />
+            <Description>
+                <h1>Laminate</h1>
+                <h4>We offer top quality laminate from top rated manufacturers, with a high range of textures and colors.</h4>
+            </Description>
+            <DescriptionPics>
+                <h1>Laminate Pics</h1>
+            </DescriptionPics>
         </section>
         <section className={classes.Details}>
             <Tile />
