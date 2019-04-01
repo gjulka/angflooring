@@ -28,9 +28,15 @@ const Home = () => (
             <div className={classes.Arrow}><img src={arrow} alt=""></img></div>
             <div className={classes.Arrow2}><img src={arrow} alt=""></img></div>
         </div>
-        {/* Each section uses same class...could possibly change if you run into errors */}
+
+        {/* 
+            Each section uses same class...could possibly change if you run into errors.
+            Also, added a resuable component called Description, to eliminate excessive component creation. 
+            This may cause errors with animation but we shall see.
+        */}
+
         <section className={classes.Details}>
-            <Description>
+            <Description className={classes.LaminateTry}>
                 <h1>Laminate</h1>
                 <h4>We offer top quality laminate from top rated manufacturers, with a high range of textures and colors.</h4>
             </Description>
