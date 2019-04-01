@@ -3,7 +3,12 @@ import classes from './Laminate.module.css'
 
 const Laminate = () => (
     <div className={classes.Laminate}>
-        <h1>Laminate</h1>
+        <div>
+            <h1>Laminate</h1>
+            <h4>
+                We offer top quality laminate from top rated manufacturers, with a high range of textures and colors.
+            </h4>
+        </div>
     </div>
 )
 
