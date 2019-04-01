@@ -1,7 +1,10 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade'
+import classes from './Home.module.css';
 
 import arrow from '../../assets/down-arrow.svg'
-import classes from './Home.module.css';
+import LaminateIMG from '../../assets/bathroom.jpg'
+
 
 import Laminate from '../../components/Laminate/Laminate'
 import LaminatePics from '../../components/Laminate/LaminatePics';
@@ -37,11 +40,16 @@ const Home = () => (
 
         <section className={classes.Details}>
             <Description className={classes.LaminateTry}>
-                <h1>Laminate</h1>
-                <h4>We offer top quality laminate from top rated manufacturers, with a high range of textures and colors.</h4>
+                <Fade left>
+                    <h1>Laminate</h1>
+                    <h4>We offer top quality laminate from top rated manufacturers, with a high range of textures and colors.</h4>
+                </Fade>
             </Description>
             <DescriptionPics>
-                <h1>Laminate Pics</h1>
+                <Fade right>
+                    <h1>Laminate Pics</h1>
+                    <img src={LaminateIMG} alt=""></img>
+                </Fade>
             </DescriptionPics>
         </section>
         <section className={classes.Details}>
