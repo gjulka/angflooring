@@ -2,8 +2,11 @@ import React from 'react'
 import Fade from 'react-reveal/Fade'
 import classes from './Home.module.css';
 
-import arrow from '../../assets/down-arrow.svg'
-import LaminateIMG from '../../assets/bathroom.jpg'
+import arrow from '../../assets/misc/down-arrow.svg'
+import laminate1 from '../../assets/laminate/laminate1_single.jpg'
+import laminate2 from '../../assets/laminate/laminate2_single.jpeg'
+import laminate3 from '../../assets/laminate/laminate3_single.jpeg'
+import laminate4 from '../../assets/laminate/laminate4_single.jpeg'
 
 
 import Laminate from '../../components/Laminate/Laminate'
@@ -39,7 +42,7 @@ const Home = () => (
         */}
 
         <section className={classes.Details}>
-            <Description className={classes.LaminateTry}>
+            <Description>
                 <Fade left>
                     <h1>Laminate</h1>
                     <h4>We offer top quality laminate from top rated manufacturers, with a high range of textures and colors.</h4>
@@ -48,13 +51,20 @@ const Home = () => (
             <DescriptionPics>
                 <Fade right>
                     <h1>Laminate Pics</h1>
-                    <img src={LaminateIMG} alt=""></img>
+                    <img className={classes.image} src={laminate1} alt=""></img>
+                    <img className={classes.image} src={laminate2} alt=""></img>
+                    <img className={classes.image} src={laminate3} alt=""></img>
+                    <img className={classes.image} src={laminate4} alt=""></img>
                 </Fade>
             </DescriptionPics>
         </section>
         <section className={classes.Details}>
-            <Tile />
-            <TilePics />
+            <TilePics>
+                
+            </TilePics>
+            <Tile>
+
+            </Tile>
         </section>
         <section className={classes.Details}>
             <Granite />

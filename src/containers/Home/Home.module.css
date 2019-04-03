@@ -1,5 +1,5 @@
 .Home {
-    background: url(../../assets/homepic.jpg);
+    background: url(../../assets/home_examples/homepic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -49,3 +49,13 @@
     top: 900px;
     position: absolute;
 }
+
+.image {
+    display: block;
+    max-width: 600px;
+    max-height: 85px;
+    width: 400px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
