@@ -41,36 +41,37 @@ const Home = () => (
             This may cause errors with animation but we shall see.
         */}
 
-        <section className={classes.Details}>
-            <Description>
+        <div className={classes.sectionBackground}>
+            <section className={classes.Details}>
+                <Description>
+                    <Fade left>
+                        <h1>Laminate</h1>
+                        <h4>We offer top quality laminate from top rated manufacturers, with a high range of textures and colors.</h4>
+                    </Fade>
+                </Description>
+                <DescriptionPics>
+                    <Fade right>
+                        <h1>Laminate Pics</h1>
+                        <img className={classes.image} src={laminate1} alt=""></img>
+                        <img className={classes.image} src={laminate2} alt=""></img>
+                        <img className={classes.image} src={laminate3} alt=""></img>
+                        <img className={classes.image} src={laminate4} alt=""></img>
+                    </Fade>
+                </DescriptionPics>
+            </section>
+            <section className={classes.Details}>
                 <Fade left>
-                    <h1>Laminate</h1>
-                    <h4>We offer top quality laminate from top rated manufacturers, with a high range of textures and colors.</h4>
+                    <TilePics/>
                 </Fade>
-            </Description>
-            <DescriptionPics>
                 <Fade right>
-                    <h1>Laminate Pics</h1>
-                    <img className={classes.image} src={laminate1} alt=""></img>
-                    <img className={classes.image} src={laminate2} alt=""></img>
-                    <img className={classes.image} src={laminate3} alt=""></img>
-                    <img className={classes.image} src={laminate4} alt=""></img>
+                    <Tile />
                 </Fade>
-            </DescriptionPics>
-        </section>
-        <section className={classes.Details}>
-            <TilePics>
-                
-            </TilePics>
-            <Tile>
-
-            </Tile>
-        </section>
-        <section className={classes.Details}>
-            <Granite />
-            <GranitePics />
-        </section>
-
+            </section>
+            <section className={classes.Details}>
+                <Granite />
+                <GranitePics />
+            </section>
+        </div>
     </div>
 )
 
