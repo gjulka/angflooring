@@ -1,0 +1,43 @@
+.ProductsDiv {
+    /* border: 1px solid red; */
+    /* background-color: orange; */
+    height: 100vh;
+}
+
+.innerProductsDiv {
+    /* border: 1px solid red; */
+    /* background: orange; */
+    width: 350px;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.secondInnerProductsDiv {
+    /* border: 1px solid blue; */
+    height: 90%;
+    width: 100%;
+    position: relative;
+    top: 11%;
+}
+
+@media (min-width: 1500px) {
+    .innerProductsDiv {
+        /* border: 1px solid red; */
+        /* background: orange; */
+        width: 952px;
+        height: 100%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .secondInnerProductsDiv {
+        /* border: 1px solid blue; */
+        height: 90%;
+        width: 100%;
+        position: relative;
+        top: 11%;
+    }
+}

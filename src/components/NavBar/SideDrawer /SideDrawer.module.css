@@ -1,0 +1,53 @@
+.SideDrawer {
+    height: 100vh;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    background: white;
+    display: block;
+    z-index: 15;
+}
+
+.productsSideLink {
+    color: black;
+    cursor: pointer;
+}
+
+.productsSideLink:hover {
+    background: rgb(187, 186, 186);
+}
+
+.SideDrawer ul {
+    /* border: 1px solid red; */
+    height: 75%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.SideDrawer a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.SideDrawer li:hover {
+    background: rgb(187, 186, 186);
+}
+
+@media (min-width: 1441px) {
+    .SideDrawer {
+        height: 100vh;
+        box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 150px;
+        background: white;
+        display: none;
+    } 
+}

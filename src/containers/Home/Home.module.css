@@ -1,60 +1,93 @@
-.Home {
-    background: url(../../assets/home_examples/homepic.jpg);
+.HomeDiv {
+    /* border: 1px solid red; */
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/newpics/apartment-clean-condominium-279719.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-position: bottom;
 }
 
-.HomeBody {
-    margin-bottom: 210px;
-    width: 750px;
+.homePhrase {
     text-align: center;
-    background: rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
+    position: relative;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.562);
+    height: 150px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.homePhrase h1 {
+    color: white;
+    position: relative;
+    top: 35%;
+    transform: translate(0, -50%);
+    margin: 0;
+}
+
+.productsButton {
+    position: relative;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    height: 35px;
+    font-weight: 700;
+    transform: translate(0, 50%);
+}
+
+.productsButton:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+@media (min-width: 1500px){
+    .HomeDiv {
+        /* border: 1px solid red; */
+        height: 100vh;
+        width: 100%;
+        background-image: url(../../assets/newpics/apartment-clean-condominium-279719.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .homePhrase {
+        text-align: center;
+        position: relative;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.562);
+        height: 125px;
+        width: 550px;
+        border-radius: 15px;
+    }
     
+    .homePhrase h1 {
+        color: white;
+        position: relative;
+        top: 30%;
+        transform: translate(0, -50%);
+    }
+
+    .productsButton {
+        position: relative;
+        top: 35%;
+        border: 2px solid white;
+        background: none;
+        color: white;
+        height: 35px;
+        font-weight: 700;
+        transform: translate(0, -50%);
+
+    }
+
+    .productsButton:hover {
+        background: rgb(255, 255, 255);
+        color: black;
+    }
 }
 
-.HomeBody h1{
-    color: white;
-    font-weight: bold;
-}
-
-.HomeBody h6{
-    color: white;
-}
-
-.Details {
-    width: 70%;
-    height: 500px;
-    background: aqua;
-    margin: auto;
-    display: flex;
-    margin-top: 20px;
-}
-
-.Arrow {
-    height: 50px;
-    width: 50px;
-    top: 885px;
-    position: absolute;
-}
-
-.Arrow2 {
-    height: 50px;
-    width: 50px;
-    top: 900px;
-    position: absolute;
-}
-
-.image {
-    display: block;
-    max-width: 600px;
-    max-height: 85px;
-    width: 400px;
-    height: auto;
-    margin-bottom: 5px;
-}

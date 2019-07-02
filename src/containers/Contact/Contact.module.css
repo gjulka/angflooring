@@ -1,0 +1,258 @@
+.contactDiv {
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+.innerContactDiv {
+    /* border: 1px solid red; */
+    /* background: orange; */
+    width: 350px;
+    height: 100%;
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.secondInnerContactDiv {
+    /* border: 1px solid blue; */
+    height: 90%;
+    width: 100%;
+    position: relative;
+    top: 10%;
+}
+
+.thirdContactDiv {
+    /* border: 1px solid green; */
+    height: 50%;
+    width: 100%;
+}
+
+.thirdContactDiv h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.thirdContactDiv hr {
+    width: 75%;
+    border-width: 2px;
+    border-color: black;
+}
+
+.fourthContactDiv {
+    /* border: 1px solid red; */
+    position: relative;
+    top: 55%;
+    transform: translateY(-50%)
+}
+
+.contactForm {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: rgb(223, 223, 223);
+    padding: 10px 15px;
+    outline: none;
+    color: black;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.input:focus {
+    box-shadow: 0 0 10px 4px rgb(168, 168, 168);
+}
+
+.contactSubmitBtn {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    background: black;
+    color: white;
+    padding: 8px 40px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mapInfoDiv {
+    /* border: 1px solid red; */
+    height: 50%;
+}
+
+.mapDiv {
+    /* border: 1px solid purple; */
+    height: 100%;
+    width: 50%;
+}
+
+.map {
+    height: 90%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.infoDiv {
+    /* border: 1px solid purple; */
+    height: 100%;
+    width: 100%;
+}
+
+.info {
+    height: 90%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /* border: 1px solid red; */
+}
+
+.info h4 {
+    text-align: center;
+}
+
+.info ul {
+    list-style: none;
+    color: black;
+    font-size: 15px;
+}
+
+@media (min-width: 1500px) {
+    .innerContactDiv {
+        /* border: 1px solid red; */
+        /* background: orange; */
+        width: 952px;
+        height: 100%;
+        position: relative;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .secondInnerContactDiv {
+        /* border: 1px solid blue; */
+        height: 90%;
+        width: 100%;
+        position: relative;
+        top: 10%;
+    }
+
+    .thirdContactDiv {
+        /* border: 1px solid green; */
+        height: 50%;
+        width: 100%;
+    }
+
+    .thirdContactDiv h3 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .thirdContactDiv hr {
+        width: 75%;
+        border-width: 2px;
+        border-color: black;
+    }
+
+    .fourthContactDiv {
+        /* border: 1px solid red; */
+        position: relative;
+        top: 55%;
+        transform: translateY(-50%)
+    }
+
+    .contactForm {
+        max-width: 600px;
+        margin: auto;
+        padding: 0 10px;
+        overflow: hidden;
+    }
+
+    .input {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 16px 0;
+        border: 0;
+        background: rgb(223, 223, 223);
+        padding: 10px 15px;
+        outline: none;
+        color: black;
+        border-radius: 5px;
+        transition: 0.5s;
+    }
+
+    .input:focus {
+        box-shadow: 0 0 10px 4px rgb(168, 168, 168);
+    }
+
+    .contactForm textarea {
+        margin-bottom: 8px;
+    }
+
+    .contactSubmitBtn {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        border: none;
+        background: black;
+        color: white;
+        padding: 8px 40px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .mapInfoDiv {
+        /* border: 1px solid red; */
+        height: 50%;
+        display: flex;
+    }
+
+    .mapDiv {
+        /* border: 1px solid purple; */
+        height: 100%;
+        width: 50%;
+    }
+
+    .map {
+        height: 90%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+
+    .infoDiv {
+        /* border: 1px solid purple; */
+        height: 100%;
+        width: 50%;
+    }
+
+    .info {
+        height: 75%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        /* border: 1px solid red; */
+        padding: 0 30px;
+    }
+
+    .info h4 {
+        text-align: center;
+    }
+
+    .info ul {
+        list-style: none;
+        color: black;
+        font-size: 15px;
+    }
+}

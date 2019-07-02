@@ -1,9 +1,0 @@
-.Granite {
-    width: 500px;
-    height: 500px;
-    border: 5px solid red;
-    float: left;
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
